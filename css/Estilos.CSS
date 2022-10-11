@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "the rift shop";
+    src: url(../assets/fonts/The\ Rift\ Shop.otf);
+}
+
+@font-face {
+    font-family: "virtuality";
+    src: url(../assets/fonts/VIRTUALITY\ DEMO.otf);
+}
+
+@font-face {
+    font-family: "Basella";
+    src: url(../assets/fonts/Basella-Demo.otf);
+}
+
+@font-face {
+    font-family: "Columbian";
+    src: url(../assets/fonts/Columbian.otf);
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+
+main {
+    margin: 5%;
+    text-align: center;
+}
+
+main h1 {
+    font-family: "Columbian";
+    font-size: 6em;
+    }
+
+.historia {
+    font-family: "virtuality";
+    font-size: 2em;
+    background: rgb(23,18,167);
+    background: linear-gradient(90deg, rgba(23,18,167,1) 0%, rgba(26,188,198,1) 11%, rgba(0,255,226,1) 58%);
+    
+}
+
+
+
+.calendario {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: right;
+  width: 300px;
+  margin: 10px;
+  }
+
+
+.primer-dia-enero {
+    grid-column-start: 6;
+    
+}
+
+.primer-dia-febrero {
+    grid-column-start: 2;
+    
+}
+
+.primer-dia-marzo {
+    grid-column-start: 2;
+    
+}
+
+.primer-dia-abril {
+    grid-column-start: 5;
+    
+}
+
+.primer-dia-mayo {
+    grid-column-start: 7;
+    
+}
+
+.primer-dia-junio {
+    grid-column-start: 3;
+    
+}
+
+.primer-dia-julio {
+    grid-column-start: 5;
+    
+}
+
+.primer-dia-agosto {
+    grid-column-start: 1;
+    
+}
+
+.primer-dia-septiembre {
+    grid-column-start: 4;
+    
+}
+
+.primer-dia-octubre {
+    grid-column-start: 6;
+    
+}
+
+.primer-dia-noviembre {
+    grid-column-start: 2;
+    
+}
+
+.primer-dia-diciembre {
+    grid-column-start: 4;
+    
+}
+
+.dia-nombre {
+    background-color: #c0de5d;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ordendecalendario {
+    width: 1330px;
+    height: 1000px;
+    background-color: rgb(207, 248, 235);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.turnosdisponibles {
+    color: red;
+   text-align: center;
+} 
+
+.formulario {
+    background-color: darkgrey;
+    border:5px solid black;
+    text-align: center;
+    font-family: "the rift shop";
+    padding: 5%;
+    margin: 3%;
+}
